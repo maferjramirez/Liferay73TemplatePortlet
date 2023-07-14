@@ -1,0 +1,4 @@
+Bundle-Name: Portlet-command-template
+Bundle-SymbolicName: com.gq.portlets
+Bundle-Version: 1.0.0
+Export-Package: com.gq.portlets.constants
