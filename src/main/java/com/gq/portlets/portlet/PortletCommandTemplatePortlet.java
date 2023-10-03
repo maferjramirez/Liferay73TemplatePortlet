@@ -28,4 +28,12 @@ import org.osgi.service.component.annotations.Component;
 	service = Portlet.class
 )
 public class PortletCommandTemplatePortlet extends MVCPortlet {
+
+	@Override
+	public void doView( RenderRequest renderRequest, RenderResponse renderResponse) 
+			throws IOException, PortletException {
+	
+		//TO.DO
+		super.doView(renderRequest, renderResponse);
+	}
 }
